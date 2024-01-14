@@ -1,0 +1,87 @@
+* {margin: 0;
+    padding: 0;
+    font font-family: sans-serif;
+}
+.niggaz {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://i.imgur.com/JfyoOI7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.niggabar {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50));
+}
+
+.logo { 
+    width: 130px;
+    cursor: pointer;
+    margin: 0 70px;
+    
+}
+
+.niggabar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    
+}
+
+.niggabar ul li::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.niggabar ul li:hover::after {
+    width: 100%;
+    
+}
+.niggabar ul li a {
+    text-decoration: none; 
+    color: white;
+}
+
+.art{
+    position: relative;
+    top: 20%;
+    left: 15%;
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img {
+    position: relative;
+    top: 5px;
+    left: 17%;
+}
+
+.title {
+    position: relative;
+    top: -300px;
+    left: 55%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.box{
+    width: 450px;
+}
+
+.first{
+    width: 450px;
+}
